@@ -67,4 +67,23 @@ Code output
 README.md generated successfully.
 
 ```bash
-pip install pyserial matplotlib pillow pandas numpy gTTS pygame torch langchain_olla
+pip install pyserial matplotlib pillow pandas numpy gTTS pygame torch langchain_ollama
+
+> **Note:** Ensure Ollama is installed and running locally with the necessary base model.
+
+### 3. Model Fine-Tuning (Optional)
+If you wish to re-train the model on new data:
+1. Open `LLM_Fine_Tuning_Llama.ipynb` in Google Colab or a local Jupyter environment.
+2. Ensure you have a CUDA-capable GPU.
+3. Run the notebook to fine-tune the model using `FinalDataset.json` and export to your local Ollama instance.
+
+## 🖥️ Usage
+
+1. Power on the 3D printer and connect the Arduino via USB to your host computer.
+2. Launch the Dashboard.
+3. Select your designated COM port from the GUI dropdown and click **Start capturing data**.
+4. Use the interface to monitor live graphs. Type or speak queries into the chatbot to receive real-time, context-aware troubleshooting advice!
+
+## 🎓 Academic Context
+
+This project was developed for presentation at the **ASEE Make It! Manufacturing Division Poster Session**. The platform is designed not just as a tool, but as a modular educational framework that can adapt to CNCs, robotic arms, or any smart manufacturing node to foster next-generation engineering skills.

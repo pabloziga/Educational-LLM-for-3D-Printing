@@ -68,7 +68,7 @@ README.md generated successfully.
 
 ```bash
 pip install pyserial matplotlib pillow pandas numpy gTTS pygame torch langchain_ollama
-
+```
 > **Note:** Ensure Ollama is installed and running locally with the necessary base model.
 
 ### 3. Model Fine-Tuning (Optional)

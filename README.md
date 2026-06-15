@@ -1,4 +1,3 @@
-markdown_content = """<div align="center">
 
 # 🛠️ LLM-Powered Educational Platform for Smart Manufacturing
 
